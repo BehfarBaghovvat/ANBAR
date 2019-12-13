@@ -1,0 +1,1423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="myDataGridView.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="myDataGridView.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="commodityNameDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>نام کالا</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="commodityNameDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="quantityDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>تعداد</value>
+  </data>
+  <data name="unitDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>واحد</value>
+  </data>
+  <data name="commodityPriceDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>قیمت کالا</value>
+  </data>
+  <data name="totalPriceDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>قیمت کل</value>
+  </data>
+  <data name="descriptionDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>توضیحات</value>
+  </data>
+  <data name="commodityPicturDataGridViewImageColumn.HeaderText" xml:space="preserve">
+    <value>عکس کالا</value>
+  </data>
+  <data name="commodityPicturDataGridViewImageColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <metadata name="commodityBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="myDataGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>424, 68</value>
+  </data>
+  <data name="myDataGridView.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>508, 1000</value>
+  </data>
+  <data name="myDataGridView.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>508, 308</value>
+  </data>
+  <data name="myDataGridView.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="myDataGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>508, 404</value>
+  </data>
+  <data name="myDataGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;myDataGridView.Name" xml:space="preserve">
+    <value>myDataGridView</value>
+  </data>
+  <data name="&gt;&gt;myDataGridView.Type" xml:space="preserve">
+    <value>Mbb.Windows.Forms.DataGridView, Mbb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;myDataGridView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;myDataGridView.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="searchCommodityNameLabel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="searchCommodityNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="searchCommodityNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>437, 21</value>
+  </data>
+  <data name="searchCommodityNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 13</value>
+  </data>
+  <data name="searchCommodityNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="searchCommodityNameLabel.Text" xml:space="preserve">
+    <value>ج&amp;ستجوی کالا</value>
+  </data>
+  <data name="&gt;&gt;searchCommodityNameLabel.Name" xml:space="preserve">
+    <value>searchCommodityNameLabel</value>
+  </data>
+  <data name="&gt;&gt;searchCommodityNameLabel.Type" xml:space="preserve">
+    <value>Mbb.Windows.Forms.Label, Mbb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;searchCommodityNameLabel.Parent" xml:space="preserve">
+    <value>searchGroupBox</value>
+  </data>
+  <data name="&gt;&gt;searchCommodityNameLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="searchCommodityNameTextBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="searchCommodityNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 18</value>
+  </data>
+  <data name="searchCommodityNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>425, 22</value>
+  </data>
+  <data name="searchCommodityNameTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="searchCommodityNameTextBox.Text" xml:space="preserve">
+    <value>نام کالا را وارد نمایید...</value>
+  </data>
+  <data name="&gt;&gt;searchCommodityNameTextBox.Name" xml:space="preserve">
+    <value>searchCommodityNameTextBox</value>
+  </data>
+  <data name="&gt;&gt;searchCommodityNameTextBox.Type" xml:space="preserve">
+    <value>Mbb.Windows.Forms.TextBox, Mbb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;searchCommodityNameTextBox.Parent" xml:space="preserve">
+    <value>searchGroupBox</value>
+  </data>
+  <data name="&gt;&gt;searchCommodityNameTextBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="BuyerProfileGroupBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="BuyerProfileGroupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <metadata name="descriptionTextBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="descriptionTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 190</value>
+  </data>
+  <data name="descriptionTextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>32000</value>
+  </data>
+  <data name="descriptionTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="descriptionTextBox.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="descriptionTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 67</value>
+  </data>
+  <data name="descriptionTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;descriptionTextBox.Name" xml:space="preserve">
+    <value>descriptionTextBox</value>
+  </data>
+  <data name="&gt;&gt;descriptionTextBox.Type" xml:space="preserve">
+    <value>Mbb.Windows.Forms.TextBox, Mbb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;descriptionTextBox.Parent" xml:space="preserve">
+    <value>BuyerProfileGroupBox</value>
+  </data>
+  <data name="&gt;&gt;descriptionTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="label1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 193</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>تو&amp;ضیحات</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>Mbb.Windows.Forms.Label, Mbb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>BuyerProfileGroupBox</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="toDayButton.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="toDayButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 50</value>
+  </data>
+  <data name="toDayButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 23</value>
+  </data>
+  <data name="toDayButton.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="toDayButton.Text" xml:space="preserve">
+    <value>ام&amp;روز</value>
+  </data>
+  <data name="&gt;&gt;toDayButton.Name" xml:space="preserve">
+    <value>toDayButton</value>
+  </data>
+  <data name="&gt;&gt;toDayButton.Type" xml:space="preserve">
+    <value>Mbb.Windows.Forms.Button, Mbb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;toDayButton.Parent" xml:space="preserve">
+    <value>BuyerProfileGroupBox</value>
+  </data>
+  <data name="&gt;&gt;toDayButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="phonNumberMaskedBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="phonNumberMaskedBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 108</value>
+  </data>
+  <data name="phonNumberMaskedBox.Mask" xml:space="preserve">
+    <value>0000-0000</value>
+  </data>
+  <data name="phonNumberMaskedBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 22</value>
+  </data>
+  <data name="phonNumberMaskedBox.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="phonNumberMaskedBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;phonNumberMaskedBox.Name" xml:space="preserve">
+    <value>phonNumberMaskedBox</value>
+  </data>
+  <data name="&gt;&gt;phonNumberMaskedBox.Type" xml:space="preserve">
+    <value>Mbb.Windows.Forms.MaskedBox, Mbb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;phonNumberMaskedBox.Parent" xml:space="preserve">
+    <value>BuyerProfileGroupBox</value>
+  </data>
+  <data name="&gt;&gt;phonNumberMaskedBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="phoneNumberLabel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="phoneNumberLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="phoneNumberLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>350, 111</value>
+  </data>
+  <data name="phoneNumberLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 13</value>
+  </data>
+  <data name="phoneNumberLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="phoneNumberLabel.Text" xml:space="preserve">
+    <value>تلفن &amp;ثابت</value>
+  </data>
+  <data name="&gt;&gt;phoneNumberLabel.Name" xml:space="preserve">
+    <value>phoneNumberLabel</value>
+  </data>
+  <data name="&gt;&gt;phoneNumberLabel.Type" xml:space="preserve">
+    <value>Mbb.Windows.Forms.Label, Mbb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;phoneNumberLabel.Parent" xml:space="preserve">
+    <value>BuyerProfileGroupBox</value>
+  </data>
+  <data name="&gt;&gt;phoneNumberLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="cellPhoneMaskedBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="cellPhoneMaskedBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 80</value>
+  </data>
+  <data name="cellPhoneMaskedBox.Mask" xml:space="preserve">
+    <value>0000-000-0000</value>
+  </data>
+  <data name="cellPhoneMaskedBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 22</value>
+  </data>
+  <data name="cellPhoneMaskedBox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="cellPhoneMaskedBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;cellPhoneMaskedBox.Name" xml:space="preserve">
+    <value>cellPhoneMaskedBox</value>
+  </data>
+  <data name="&gt;&gt;cellPhoneMaskedBox.Type" xml:space="preserve">
+    <value>Mbb.Windows.Forms.MaskedBox, Mbb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cellPhoneMaskedBox.Parent" xml:space="preserve">
+    <value>BuyerProfileGroupBox</value>
+  </data>
+  <data name="&gt;&gt;cellPhoneMaskedBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="orderDateMaskedBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="orderDateMaskedBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 52</value>
+  </data>
+  <data name="orderDateMaskedBox.Mask" xml:space="preserve">
+    <value>0000/00/00</value>
+  </data>
+  <data name="orderDateMaskedBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 22</value>
+  </data>
+  <data name="orderDateMaskedBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="orderDateMaskedBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;orderDateMaskedBox.Name" xml:space="preserve">
+    <value>orderDateMaskedBox</value>
+  </data>
+  <data name="&gt;&gt;orderDateMaskedBox.Type" xml:space="preserve">
+    <value>Mbb.Windows.Forms.MaskedBox, Mbb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;orderDateMaskedBox.Parent" xml:space="preserve">
+    <value>BuyerProfileGroupBox</value>
+  </data>
+  <data name="&gt;&gt;orderDateMaskedBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <metadata name="addressTextBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="addressTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 136</value>
+  </data>
+  <data name="addressTextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>250</value>
+  </data>
+  <data name="addressTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="addressTextBox.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="addressTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 48</value>
+  </data>
+  <data name="addressTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;addressTextBox.Name" xml:space="preserve">
+    <value>addressTextBox</value>
+  </data>
+  <data name="&gt;&gt;addressTextBox.Type" xml:space="preserve">
+    <value>Mbb.Windows.Forms.TextBox, Mbb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;addressTextBox.Parent" xml:space="preserve">
+    <value>BuyerProfileGroupBox</value>
+  </data>
+  <data name="&gt;&gt;addressTextBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <metadata name="addressLabel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="addressLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="addressLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>369, 139</value>
+  </data>
+  <data name="addressLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 13</value>
+  </data>
+  <data name="addressLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="addressLabel.Text" xml:space="preserve">
+    <value>آ&amp;درس</value>
+  </data>
+  <data name="&gt;&gt;addressLabel.Name" xml:space="preserve">
+    <value>addressLabel</value>
+  </data>
+  <data name="&gt;&gt;addressLabel.Type" xml:space="preserve">
+    <value>Mbb.Windows.Forms.Label, Mbb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;addressLabel.Parent" xml:space="preserve">
+    <value>BuyerProfileGroupBox</value>
+  </data>
+  <data name="&gt;&gt;addressLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <metadata name="buyerNameTextBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="buyerNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 24</value>
+  </data>
+  <data name="buyerNameTextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="buyerNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 22</value>
+  </data>
+  <data name="buyerNameTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;buyerNameTextBox.Name" xml:space="preserve">
+    <value>buyerNameTextBox</value>
+  </data>
+  <data name="&gt;&gt;buyerNameTextBox.Type" xml:space="preserve">
+    <value>Mbb.Windows.Forms.TextBox, Mbb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buyerNameTextBox.Parent" xml:space="preserve">
+    <value>BuyerProfileGroupBox</value>
+  </data>
+  <data name="&gt;&gt;buyerNameTextBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <metadata name="buyerNameLabel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="buyerNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="buyerNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 27</value>
+  </data>
+  <data name="buyerNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 13</value>
+  </data>
+  <data name="buyerNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="buyerNameLabel.Text" xml:space="preserve">
+    <value>ن&amp;ام خریدار</value>
+  </data>
+  <data name="&gt;&gt;buyerNameLabel.Name" xml:space="preserve">
+    <value>buyerNameLabel</value>
+  </data>
+  <data name="&gt;&gt;buyerNameLabel.Type" xml:space="preserve">
+    <value>Mbb.Windows.Forms.Label, Mbb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buyerNameLabel.Parent" xml:space="preserve">
+    <value>BuyerProfileGroupBox</value>
+  </data>
+  <data name="&gt;&gt;buyerNameLabel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <metadata name="cellPhoneLabel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="cellPhoneLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cellPhoneLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>345, 83</value>
+  </data>
+  <data name="cellPhoneLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 13</value>
+  </data>
+  <data name="cellPhoneLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="cellPhoneLabel.Text" xml:space="preserve">
+    <value>تلفن &amp;همراه</value>
+  </data>
+  <data name="&gt;&gt;cellPhoneLabel.Name" xml:space="preserve">
+    <value>cellPhoneLabel</value>
+  </data>
+  <data name="&gt;&gt;cellPhoneLabel.Type" xml:space="preserve">
+    <value>Mbb.Windows.Forms.Label, Mbb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cellPhoneLabel.Parent" xml:space="preserve">
+    <value>BuyerProfileGroupBox</value>
+  </data>
+  <data name="&gt;&gt;cellPhoneLabel.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <metadata name="orderDateLabel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="orderDateLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="orderDateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 55</value>
+  </data>
+  <data name="orderDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 13</value>
+  </data>
+  <data name="orderDateLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="orderDateLabel.Text" xml:space="preserve">
+    <value>&amp;تاریخ سفارش</value>
+  </data>
+  <data name="&gt;&gt;orderDateLabel.Name" xml:space="preserve">
+    <value>orderDateLabel</value>
+  </data>
+  <data name="&gt;&gt;orderDateLabel.Type" xml:space="preserve">
+    <value>Mbb.Windows.Forms.Label, Mbb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;orderDateLabel.Parent" xml:space="preserve">
+    <value>BuyerProfileGroupBox</value>
+  </data>
+  <data name="&gt;&gt;orderDateLabel.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="BuyerProfileGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 180</value>
+  </data>
+  <data name="BuyerProfileGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>408, 263</value>
+  </data>
+  <data name="BuyerProfileGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="BuyerProfileGroupBox.Text" xml:space="preserve">
+    <value>مشخصات خریدار</value>
+  </data>
+  <data name="&gt;&gt;BuyerProfileGroupBox.Name" xml:space="preserve">
+    <value>BuyerProfileGroupBox</value>
+  </data>
+  <data name="&gt;&gt;BuyerProfileGroupBox.Type" xml:space="preserve">
+    <value>Mbb.Windows.Forms.GroupBox, Mbb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;BuyerProfileGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BuyerProfileGroupBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="commodityProfileGroupBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="commodityProfileGroupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <metadata name="unitComboBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="unitComboBox.Items" xml:space="preserve">
+    <value>مثقال</value>
+  </data>
+  <data name="unitComboBox.Items1" xml:space="preserve">
+    <value>گرم</value>
+  </data>
+  <data name="unitComboBox.Items2" xml:space="preserve">
+    <value>کیلوگرم</value>
+  </data>
+  <data name="unitComboBox.Items3" xml:space="preserve">
+    <value>تن</value>
+  </data>
+  <data name="unitComboBox.Items4" xml:space="preserve">
+    <value>عدد</value>
+  </data>
+  <data name="unitComboBox.Items5" xml:space="preserve">
+    <value>کارتن</value>
+  </data>
+  <data name="unitComboBox.Items6" xml:space="preserve">
+    <value>بسته</value>
+  </data>
+  <data name="unitComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 56</value>
+  </data>
+  <data name="unitComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 21</value>
+  </data>
+  <data name="unitComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="unitComboBox.Text" xml:space="preserve">
+    <value>کیلوگرم</value>
+  </data>
+  <data name="&gt;&gt;unitComboBox.Name" xml:space="preserve">
+    <value>unitComboBox</value>
+  </data>
+  <data name="&gt;&gt;unitComboBox.Type" xml:space="preserve">
+    <value>Mbb.Windows.Forms.ComboBox, Mbb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;unitComboBox.Parent" xml:space="preserve">
+    <value>commodityProfileGroupBox</value>
+  </data>
+  <data name="&gt;&gt;unitComboBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="pictureGroupBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="pictureGroupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <metadata name="commodityImagePicturBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="commodityImagePicturBox.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEsAAABLCAYAAAA4TnrqAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        nAAADpwBB5RT3QAAAwxJREFUeF7tm79rFEEcxe8fsEgjWCqKtoGkTqeFtqKxEcW7SkkTrLTQFBGsNBeQ
+        qIUKamGRgGihjYo/Ci8GuRAJuROisRJPULjGm3G/5jZsvpl7mZkTXHPvC4/9zDxnlv0yb3MsWGCxWCxW
+        D9S2HXu2D5yaHKZWJf1ot2Zj9e3qH9o//sqIDlx6bTVn5/Q4lmPX+TLyNuO+nf1D7dZsrLRZJ6bmzMTT
+        ZXv1ybIRpZyd0+NYjl3ny8jrxMUb7/2aJV09/2DRfvxuelZjMzUrffA6WUmzjCyqN1pGlHJ2To9jOXad
+        LyOvE4/NLPnHkM3ybBZjGBjDs/c/mMqnpk0k1yxn5/Q4lmPX+TLynHwuOSzeMTx85a0ZuTNvE8k1y9k5
+        PY7l2HW+jDwnH5mo+MeQWhVsVloDpclj8o+T3x7rXn7pNVV2HMux63wZeZrlN5acqMFiudhuxebFZsU1
+        y/nXYqtKnleemyfLgxlD4Glms4Cnme+sAOXqnfWy/tPefP5FPof8+SSirkEs+8h+rvtkGXmacxPD2c9N
+        c/L6nD10+Y18XFv7wJZeQziRkX1kv9mVJrw/8jTnJoYXppfWfhn/TV2crjnvFyN5Xtnzn5+s0bsLztPi
+        mgvh0XsL8P7I05ybGE49W3E+tGsuhGXfTvd0jRHnJoa1by07/rBuj197Z4fLFXu0C8l62Uf2qzVazvvF
+        KDcxFC1+/WVf1H6Yx/MN86jasImyV2+W9bKP7Oe6T5aRpzk3MezEset8GXmacxPD/0G5iqGLY9f5MvI0
+        M4bA08wYBogxBJ5mxhB4mhnDADGGwNPMGAJPM2MYIMYQeJoZQ+BpZgwDxBgCTzNPVoB4soCnmS944Glm
+        DAPEGAJPM2MIPM2MYYAYQ+BpZgyBp5kxDBBjCDzNjCHwNDOGAWIMgaeZMQSeZsYwQIwh8DQzhsDTzGYB
+        TzPfWQHiOwt4mnmyAsSTBTzNXZ2sM7er+j8apVc93w3HrvNl5K3j07eq8c3qVQU1a+/Bkd2DpXKpV5U8
+        /752K1gsFou19atQ+A22ueQb6a3D9wAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="commodityImagePicturBox.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="commodityImagePicturBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 11</value>
+  </data>
+  <data name="commodityImagePicturBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 130</value>
+  </data>
+  <data name="commodityImagePicturBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="commodityImagePicturBox.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;commodityImagePicturBox.Name" xml:space="preserve">
+    <value>commodityImagePicturBox</value>
+  </data>
+  <data name="&gt;&gt;commodityImagePicturBox.Type" xml:space="preserve">
+    <value>Mbb.Windows.Forms.PicturBox, Mbb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;commodityImagePicturBox.Parent" xml:space="preserve">
+    <value>pictureGroupBox</value>
+  </data>
+  <data name="&gt;&gt;commodityImagePicturBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pictureGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 12</value>
+  </data>
+  <data name="pictureGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 145</value>
+  </data>
+  <data name="pictureGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;pictureGroupBox.Name" xml:space="preserve">
+    <value>pictureGroupBox</value>
+  </data>
+  <data name="&gt;&gt;pictureGroupBox.Type" xml:space="preserve">
+    <value>Mbb.Windows.Forms.GroupBox, Mbb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pictureGroupBox.Parent" xml:space="preserve">
+    <value>commodityProfileGroupBox</value>
+  </data>
+  <data name="&gt;&gt;pictureGroupBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="currencyLabel2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="currencyLabel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="currencyLabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="currencyLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 115</value>
+  </data>
+  <data name="currencyLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 13</value>
+  </data>
+  <data name="currencyLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="currencyLabel2.Text" xml:space="preserve">
+    <value>تومان</value>
+  </data>
+  <data name="&gt;&gt;currencyLabel2.Name" xml:space="preserve">
+    <value>currencyLabel2</value>
+  </data>
+  <data name="&gt;&gt;currencyLabel2.Type" xml:space="preserve">
+    <value>Mbb.Windows.Forms.Label, Mbb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;currencyLabel2.Parent" xml:space="preserve">
+    <value>commodityProfileGroupBox</value>
+  </data>
+  <data name="&gt;&gt;currencyLabel2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="currencyLabel1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="currencyLabel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="currencyLabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="currencyLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 87</value>
+  </data>
+  <data name="currencyLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 13</value>
+  </data>
+  <data name="currencyLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="currencyLabel1.Text" xml:space="preserve">
+    <value>تومان</value>
+  </data>
+  <data name="&gt;&gt;currencyLabel1.Name" xml:space="preserve">
+    <value>currencyLabel1</value>
+  </data>
+  <data name="&gt;&gt;currencyLabel1.Type" xml:space="preserve">
+    <value>Mbb.Windows.Forms.Label, Mbb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;currencyLabel1.Parent" xml:space="preserve">
+    <value>commodityProfileGroupBox</value>
+  </data>
+  <data name="&gt;&gt;currencyLabel1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="totalPriceTextBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="totalPriceTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="totalPriceTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="totalPriceTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="totalPriceTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 112</value>
+  </data>
+  <data name="totalPriceTextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="totalPriceTextBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="totalPriceTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 22</value>
+  </data>
+  <data name="totalPriceTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="totalPriceTextBox.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="totalPriceTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;totalPriceTextBox.Name" xml:space="preserve">
+    <value>totalPriceTextBox</value>
+  </data>
+  <data name="&gt;&gt;totalPriceTextBox.Type" xml:space="preserve">
+    <value>Mbb.Windows.Forms.TextBox, Mbb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;totalPriceTextBox.Parent" xml:space="preserve">
+    <value>commodityProfileGroupBox</value>
+  </data>
+  <data name="&gt;&gt;totalPriceTextBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="totalPriceLabel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="totalPriceLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="totalPriceLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="totalPriceLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>361, 115</value>
+  </data>
+  <data name="totalPriceLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 13</value>
+  </data>
+  <data name="totalPriceLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="totalPriceLabel.Text" xml:space="preserve">
+    <value>&amp;جمع کل</value>
+  </data>
+  <data name="&gt;&gt;totalPriceLabel.Name" xml:space="preserve">
+    <value>totalPriceLabel</value>
+  </data>
+  <data name="&gt;&gt;totalPriceLabel.Type" xml:space="preserve">
+    <value>Mbb.Windows.Forms.Label, Mbb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;totalPriceLabel.Parent" xml:space="preserve">
+    <value>commodityProfileGroupBox</value>
+  </data>
+  <data name="&gt;&gt;totalPriceLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="commodityNameTextBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="commodityNameTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="commodityNameTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="commodityNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 28</value>
+  </data>
+  <data name="commodityNameTextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="commodityNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 22</value>
+  </data>
+  <data name="commodityNameTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;commodityNameTextBox.Name" xml:space="preserve">
+    <value>commodityNameTextBox</value>
+  </data>
+  <data name="&gt;&gt;commodityNameTextBox.Type" xml:space="preserve">
+    <value>Mbb.Windows.Forms.TextBox, Mbb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;commodityNameTextBox.Parent" xml:space="preserve">
+    <value>commodityProfileGroupBox</value>
+  </data>
+  <data name="&gt;&gt;commodityNameTextBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <metadata name="commodityPriceTextBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="commodityPriceTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="commodityPriceTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="commodityPriceTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 84</value>
+  </data>
+  <data name="commodityPriceTextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="commodityPriceTextBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="commodityPriceTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 22</value>
+  </data>
+  <data name="commodityPriceTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="commodityPriceTextBox.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="commodityPriceTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;commodityPriceTextBox.Name" xml:space="preserve">
+    <value>commodityPriceTextBox</value>
+  </data>
+  <data name="&gt;&gt;commodityPriceTextBox.Type" xml:space="preserve">
+    <value>Mbb.Windows.Forms.TextBox, Mbb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;commodityPriceTextBox.Parent" xml:space="preserve">
+    <value>commodityProfileGroupBox</value>
+  </data>
+  <data name="&gt;&gt;commodityPriceTextBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <metadata name="commodityNameLabel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="commodityNameLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="commodityNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="commodityNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>363, 31</value>
+  </data>
+  <data name="commodityNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 13</value>
+  </data>
+  <data name="commodityNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="commodityNameLabel.Text" xml:space="preserve">
+    <value>&amp;نام کالا</value>
+  </data>
+  <data name="&gt;&gt;commodityNameLabel.Name" xml:space="preserve">
+    <value>commodityNameLabel</value>
+  </data>
+  <data name="&gt;&gt;commodityNameLabel.Type" xml:space="preserve">
+    <value>Mbb.Windows.Forms.Label, Mbb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;commodityNameLabel.Parent" xml:space="preserve">
+    <value>commodityProfileGroupBox</value>
+  </data>
+  <data name="&gt;&gt;commodityNameLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <metadata name="commodityPriceLabel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="commodityPriceLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="commodityPriceLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="commodityPriceLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>350, 87</value>
+  </data>
+  <data name="commodityPriceLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 13</value>
+  </data>
+  <data name="commodityPriceLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="commodityPriceLabel.Text" xml:space="preserve">
+    <value>&amp;قیمت کالا</value>
+  </data>
+  <data name="&gt;&gt;commodityPriceLabel.Name" xml:space="preserve">
+    <value>commodityPriceLabel</value>
+  </data>
+  <data name="&gt;&gt;commodityPriceLabel.Type" xml:space="preserve">
+    <value>Mbb.Windows.Forms.Label, Mbb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;commodityPriceLabel.Parent" xml:space="preserve">
+    <value>commodityProfileGroupBox</value>
+  </data>
+  <data name="&gt;&gt;commodityPriceLabel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <metadata name="quantityLabel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="quantityLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="quantityLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="quantityLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>350, 59</value>
+  </data>
+  <data name="quantityLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 13</value>
+  </data>
+  <data name="quantityLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="quantityLabel.Text" xml:space="preserve">
+    <value>&amp;مقدار کالا</value>
+  </data>
+  <data name="&gt;&gt;quantityLabel.Name" xml:space="preserve">
+    <value>quantityLabel</value>
+  </data>
+  <data name="&gt;&gt;quantityLabel.Type" xml:space="preserve">
+    <value>Mbb.Windows.Forms.Label, Mbb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;quantityLabel.Parent" xml:space="preserve">
+    <value>commodityProfileGroupBox</value>
+  </data>
+  <data name="&gt;&gt;quantityLabel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <metadata name="quantityTextBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="quantityTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="quantityTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="quantityTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 56</value>
+  </data>
+  <data name="quantityTextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="quantityTextBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="quantityTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 22</value>
+  </data>
+  <data name="quantityTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="quantityTextBox.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="quantityTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;quantityTextBox.Name" xml:space="preserve">
+    <value>quantityTextBox</value>
+  </data>
+  <data name="&gt;&gt;quantityTextBox.Type" xml:space="preserve">
+    <value>Mbb.Windows.Forms.TextBox, Mbb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;quantityTextBox.Parent" xml:space="preserve">
+    <value>commodityProfileGroupBox</value>
+  </data>
+  <data name="&gt;&gt;quantityTextBox.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="commodityProfileGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 12</value>
+  </data>
+  <data name="commodityProfileGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>408, 162</value>
+  </data>
+  <data name="commodityProfileGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="commodityProfileGroupBox.Text" xml:space="preserve">
+    <value>مشخصات کالا</value>
+  </data>
+  <data name="&gt;&gt;commodityProfileGroupBox.Name" xml:space="preserve">
+    <value>commodityProfileGroupBox</value>
+  </data>
+  <data name="&gt;&gt;commodityProfileGroupBox.Type" xml:space="preserve">
+    <value>Mbb.Windows.Forms.GroupBox, Mbb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;commodityProfileGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;commodityProfileGroupBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>55</value>
+  </metadata>
+  <metadata name="orderButton.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="orderButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="orderButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>102, 449</value>
+  </data>
+  <data name="orderButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 23</value>
+  </data>
+  <data name="orderButton.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="orderButton.Text" xml:space="preserve">
+    <value>&amp;ثبت سفارش</value>
+  </data>
+  <data name="&gt;&gt;orderButton.Name" xml:space="preserve">
+    <value>orderButton</value>
+  </data>
+  <data name="&gt;&gt;orderButton.Type" xml:space="preserve">
+    <value>Mbb.Windows.Forms.Button, Mbb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;orderButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;orderButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>944, 484</value>
+  </data>
+  <metadata name="searchGroupBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="searchGroupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="searchGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>424, 12</value>
+  </data>
+  <data name="searchGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>508, 50</value>
+  </data>
+  <data name="searchGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;searchGroupBox.Name" xml:space="preserve">
+    <value>searchGroupBox</value>
+  </data>
+  <data name="&gt;&gt;searchGroupBox.Type" xml:space="preserve">
+    <value>Mbb.Windows.Forms.GroupBox, Mbb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;searchGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;searchGroupBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="showDocumentButton.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="showDocumentButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="showDocumentButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 449</value>
+  </data>
+  <data name="showDocumentButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 23</value>
+  </data>
+  <data name="showDocumentButton.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="showDocumentButton.Text" xml:space="preserve">
+    <value>نماش سفارشات</value>
+  </data>
+  <data name="&gt;&gt;showDocumentButton.Name" xml:space="preserve">
+    <value>showDocumentButton</value>
+  </data>
+  <data name="&gt;&gt;showDocumentButton.Type" xml:space="preserve">
+    <value>Mbb.Windows.Forms.Button, Mbb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;showDocumentButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;showDocumentButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>فروش کالا</value>
+  </data>
+  <data name="&gt;&gt;commodityNameDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>commodityNameDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;commodityNameDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;quantityDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>quantityDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;quantityDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;unitDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>unitDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;unitDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;commodityPriceDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>commodityPriceDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;commodityPriceDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;totalPriceDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>totalPriceDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;totalPriceDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;descriptionDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>descriptionDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;descriptionDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;commodityPicturDataGridViewImageColumn.Name" xml:space="preserve">
+    <value>commodityPicturDataGridViewImageColumn</value>
+  </data>
+  <data name="&gt;&gt;commodityPicturDataGridViewImageColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewImageColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;commodityBindingSource.Name" xml:space="preserve">
+    <value>commodityBindingSource</value>
+  </data>
+  <data name="&gt;&gt;commodityBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;stiReportDataSource4.Name" xml:space="preserve">
+    <value>stiReportDataSource4</value>
+  </data>
+  <data name="&gt;&gt;stiReportDataSource4.Type" xml:space="preserve">
+    <value>Stimulsoft.Report.Design.StiReportDataSource, Stimulsoft.Report, Version=2019.2.3.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a</value>
+  </data>
+  <data name="&gt;&gt;stiReportDataSource5.Name" xml:space="preserve">
+    <value>stiReportDataSource5</value>
+  </data>
+  <data name="&gt;&gt;stiReportDataSource5.Type" xml:space="preserve">
+    <value>Stimulsoft.Report.Design.StiReportDataSource, Stimulsoft.Report, Version=2019.2.3.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a</value>
+  </data>
+  <data name="&gt;&gt;stiReportDataSource6.Name" xml:space="preserve">
+    <value>stiReportDataSource6</value>
+  </data>
+  <data name="&gt;&gt;stiReportDataSource6.Type" xml:space="preserve">
+    <value>Stimulsoft.Report.Design.StiReportDataSource, Stimulsoft.Report, Version=2019.2.3.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a</value>
+  </data>
+  <data name="&gt;&gt;stiReportDataSource7.Name" xml:space="preserve">
+    <value>stiReportDataSource7</value>
+  </data>
+  <data name="&gt;&gt;stiReportDataSource7.Type" xml:space="preserve">
+    <value>Stimulsoft.Report.Design.StiReportDataSource, Stimulsoft.Report, Version=2019.2.3.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a</value>
+  </data>
+  <data name="&gt;&gt;stiReportDataSource8.Name" xml:space="preserve">
+    <value>stiReportDataSource8</value>
+  </data>
+  <data name="&gt;&gt;stiReportDataSource8.Type" xml:space="preserve">
+    <value>Stimulsoft.Report.Design.StiReportDataSource, Stimulsoft.Report, Version=2019.2.3.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a</value>
+  </data>
+  <data name="&gt;&gt;stiReportDataSource9.Name" xml:space="preserve">
+    <value>stiReportDataSource9</value>
+  </data>
+  <data name="&gt;&gt;stiReportDataSource9.Type" xml:space="preserve">
+    <value>Stimulsoft.Report.Design.StiReportDataSource, Stimulsoft.Report, Version=2019.2.3.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a</value>
+  </data>
+  <data name="&gt;&gt;stiReportDataSource10.Name" xml:space="preserve">
+    <value>stiReportDataSource10</value>
+  </data>
+  <data name="&gt;&gt;stiReportDataSource10.Type" xml:space="preserve">
+    <value>Stimulsoft.Report.Design.StiReportDataSource, Stimulsoft.Report, Version=2019.2.3.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a</value>
+  </data>
+  <data name="&gt;&gt;stiReportDataSource11.Name" xml:space="preserve">
+    <value>stiReportDataSource11</value>
+  </data>
+  <data name="&gt;&gt;stiReportDataSource11.Type" xml:space="preserve">
+    <value>Stimulsoft.Report.Design.StiReportDataSource, Stimulsoft.Report, Version=2019.2.3.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a</value>
+  </data>
+  <data name="&gt;&gt;stiReportDataSource12.Name" xml:space="preserve">
+    <value>stiReportDataSource12</value>
+  </data>
+  <data name="&gt;&gt;stiReportDataSource12.Type" xml:space="preserve">
+    <value>Stimulsoft.Report.Design.StiReportDataSource, Stimulsoft.Report, Version=2019.2.3.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a</value>
+  </data>
+  <data name="&gt;&gt;stiReportDataSource13.Name" xml:space="preserve">
+    <value>stiReportDataSource13</value>
+  </data>
+  <data name="&gt;&gt;stiReportDataSource13.Type" xml:space="preserve">
+    <value>Stimulsoft.Report.Design.StiReportDataSource, Stimulsoft.Report, Version=2019.2.3.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a</value>
+  </data>
+  <data name="&gt;&gt;stiReportDataSource1.Name" xml:space="preserve">
+    <value>stiReportDataSource1</value>
+  </data>
+  <data name="&gt;&gt;stiReportDataSource1.Type" xml:space="preserve">
+    <value>Stimulsoft.Report.Design.StiReportDataSource, Stimulsoft.Report, Version=2019.2.3.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a</value>
+  </data>
+  <data name="&gt;&gt;stiReportDataSource2.Name" xml:space="preserve">
+    <value>stiReportDataSource2</value>
+  </data>
+  <data name="&gt;&gt;stiReportDataSource2.Type" xml:space="preserve">
+    <value>Stimulsoft.Report.Design.StiReportDataSource, Stimulsoft.Report, Version=2019.2.3.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a</value>
+  </data>
+  <data name="&gt;&gt;stiReportDataSource3.Name" xml:space="preserve">
+    <value>stiReportDataSource3</value>
+  </data>
+  <data name="&gt;&gt;stiReportDataSource3.Type" xml:space="preserve">
+    <value>Stimulsoft.Report.Design.StiReportDataSource, Stimulsoft.Report, Version=2019.2.3.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a</value>
+  </data>
+  <data name="&gt;&gt;stiReport1.Name" xml:space="preserve">
+    <value>stiReport1</value>
+  </data>
+  <data name="&gt;&gt;stiReport1.Type" xml:space="preserve">
+    <value>Stimulsoft.Report.StiReport, Stimulsoft.Report, Version=2019.2.3.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>CommoditySellingForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>ANBAR.Infrastructure.BaseForm, ANBAR, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <metadata name="stiReport1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>209, 17</value>
+  </metadata>
+</root>
